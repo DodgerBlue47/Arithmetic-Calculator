@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.dodgerblue.calculator" platformBuildVersionCode="33" platformBuildVersionName="13">
-	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
-	<application android:theme="resourceId:0x7f060000" android:label="Arithmetic Calculator" android:icon="res/drawable-xhdpi-v4/app_icon.png" android:name=".SketchApplication" android:allowBackup="true">
-		<activity android:theme="resourceId:0x7f060001" android:name=".MainActivity" android:exported="true" android:configChanges="0xda0" android:windowSoftInputMode="0x2" android:hardwareAccelerated="true" android:supportsPictureInPicture="true">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.LAUNCHER" />
-			</intent-filter>
-		</activity>
-		<activity android:name=".DebugActivity" android:screenOrientation="portrait" />
-	</application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dodgerblue.calculator"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="33"
+    android:compileSdkVersionCodename="13"
+    platformBuildVersionCode="33"
+    platformBuildVersionName="13">
+
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="res/drawable-xhdpi-v4/app_icon.png"
+        android:label="Arithmetic Calculator"
+        android:name=".SketchApplication"
+        android:theme="resourceId:0x7f060000">
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="0xda0"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:supportsPictureInPicture="true"
+            android:theme="resourceId:0x7f060001"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".DebugActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
 </manifest>
