@@ -34,3 +34,9 @@ dodgerbluedevs@gmail.com
 ## Acknowledgements
 
 Special thanks to the developers of Sketchware Pro for providing the platform to create this app.
+
+We would also like to express our gratitude to the creators of FancyToast, Shashank02051997 and their contributors, for their wonderful library that enhances user experience. 
+
+You can find FancyToast on [GitHub](https://github.com/Shashank02051997/FancyToast-Android).
+
+For more information about Sketchware Pro, visit their [GitHub repository](https://github.com/Sketchware-Pro/Sketchware-Pro).
