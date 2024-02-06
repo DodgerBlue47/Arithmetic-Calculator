@@ -17,7 +17,7 @@ Simply input the numbers and select the operation you want to perform. The resul
 
 ## Access to Source Code
 
-This app is free and open-source. You can access the source code, but modifications are not allowed.
+This app is free and open-source. You can access the source code.
 
 ## Development
 
